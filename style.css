@@ -1,0 +1,222 @@
+*{
+    margin:0 ;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 700;
+}
+.my-image{
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10%;
+}
+.container{
+padding-top: 25vh;
+text-align: center;
+}
+.landing-section{
+    height: 100vh;
+    background-color: black;
+}
+.container h2,h4{
+    color: white;
+}
+.landing-headers{
+    margin-top: 3vh;
+}
+.project-section{
+    height:fit-content;
+    padding-bottom: 15vh;
+}
+.card-columns{
+    margin-top: 7vh;
+}
+.card{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
+}
+.project-header{
+    margin-top: 5vh;
+}
+.footer-section{
+    background-color: black;
+    height: 40vh;
+}
+footer h2{
+    text-align:center;
+    padding-top: 10vh;
+    color: white;
+}
+i{
+    padding-top: 5vh;
+    color: white;
+}
+.fa-at{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.logos{
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    
+}
+.copyright{
+    text-align: center;
+    padding-top: 2vh;
+}
+.istanbul{
+    margin-bottom: 1.4vh;
+}
+.assign-it{
+    margin-bottom: 0.8vh;
+}
+@media only screen and (min-width:426px) and (max-width: 768px){
+.my-image{
+    max-width: 50%;
+}
+.assign-it{
+    margin-bottom: 1vh;
+}
+.container{
+    padding-top: 20vh;
+}
+.card{
+    margin-left: 5.75px;
+    margin-right: 5.75px;
+}
+.kaca-cikarim-card{
+    margin-left:-5.75px
+}
+.assign-it-card{
+    margin-left: -5.75px;
+}
+.todo-card{
+    margin-left:-2.875px
+}
+.weather-app-card{
+    margin-left: -2.875px;
+}
+h2{
+    font-weight: 700;
+    
+}
+h5{
+    font-weight: bold;
+}
+}
+@media only screen and (min-width:769px) and (max-width: 1024px){
+.my-image{
+    max-width: 30%;
+}
+h2{
+    font-weight: 700;
+   
+}
+h5{
+    font-weight: bold;
+}
+.container{
+    padding-top: 20vh;
+}
+.landing-headers{
+    margin-top: -1vh;
+}
+.card{
+    margin-left: 5.75px;
+    margin-right: 5.75px;
+}
+.kaca-cikarim-card{
+    margin-left:-5.75px
+}
+.assign-it-card{
+    margin-left: -5.75px;
+}
+.todo-card{
+    margin-left:-2.875px
+}
+.weather-app-card{
+    margin-left: -2.875px;
+}
+.assign-it{
+    margin-bottom:2.5vh;
+}
+}
+@media only screen and (min-width:1025px) and (max-width: 1440px){
+.my-image{
+    max-width: 25%;
+    margin-bottom: 5%;
+    margin-top: -8vh;
+}
+.card{
+    margin-left: 5.75px;
+    margin-right: 5.75px;
+}
+.kaca-cikarim-card{
+    margin-left:-5.75px
+}
+.assign-it-card{
+    margin-left: -5.75px;
+}
+.todo-card{
+    margin-left:-2.875px
+}
+.weather-app-card{
+    margin-left: -2.875px;
+    padding-bottom:0.9vh;
+}
+.assign-it{
+    margin-bottom:3.5vh;
+}
+.istanbul{
+    margin-bottom:3.2vh;
+}
+h2{
+    font-weight: 700;
+   
+}
+h5{
+    font-weight: bold;
+}
+
+}
+@media only screen and (min-width:1441px) and (max-width: 1536px){
+.my-image{
+    max-width: 29%;
+    margin-top: -8vh;
+}
+.assign-it{
+    margin-bottom:3vh;
+}
+.istanbul{
+    margin-bottom:3.2vh;
+}
+.card{
+    margin-left: 5.75px;
+    margin-right: 5.75px;
+}
+.kaca-cikarim-card{
+    margin-left:-5.75px
+}
+.assign-it-card{
+    margin-left: -5.75px;
+}
+.todo-card{
+    margin-left:-2.875px
+}
+.weather-app-card{
+    margin-left: -2.875px;
+    padding-bottom: 1vh;
+}
+.landing-headers{
+    margin-top: 0vh;
+}
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+h5{
+    font-weight: bold;
+}
+}
